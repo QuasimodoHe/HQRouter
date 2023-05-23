@@ -1,0 +1,469 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		046C707F2A1CC176005DE8A1 /* HQRouter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 046C70742A1CC176005DE8A1 /* HQRouter.framework */; };
+		046C70852A1CC176005DE8A1 /* HQRouterHeader.h in Headers */ = {isa = PBXBuildFile; fileRef = 046C70772A1CC176005DE8A1 /* HQRouterHeader.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		046C70EF2A1CC8FF005DE8A1 /* HQRouter.h in Headers */ = {isa = PBXBuildFile; fileRef = 046C70ED2A1CC8FF005DE8A1 /* HQRouter.h */; };
+		046C70F02A1CC8FF005DE8A1 /* HQRouter.m in Sources */ = {isa = PBXBuildFile; fileRef = 046C70EE2A1CC8FF005DE8A1 /* HQRouter.m */; };
+		046C70F32A1CC948005DE8A1 /* HQRouterRewrite.h in Headers */ = {isa = PBXBuildFile; fileRef = 046C70F12A1CC948005DE8A1 /* HQRouterRewrite.h */; };
+		046C70F42A1CC948005DE8A1 /* HQRouterRewrite.m in Sources */ = {isa = PBXBuildFile; fileRef = 046C70F22A1CC948005DE8A1 /* HQRouterRewrite.m */; };
+		046C70F72A1CC98C005DE8A1 /* HQRouterLogger.h in Headers */ = {isa = PBXBuildFile; fileRef = 046C70F52A1CC98C005DE8A1 /* HQRouterLogger.h */; };
+		046C70F82A1CC98C005DE8A1 /* HQRouterLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = 046C70F62A1CC98C005DE8A1 /* HQRouterLogger.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		046C70802A1CC176005DE8A1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 046C706B2A1CC176005DE8A1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 046C70732A1CC176005DE8A1;
+			remoteInfo = HQRouter;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		046C70742A1CC176005DE8A1 /* HQRouter.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = HQRouter.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		046C70772A1CC176005DE8A1 /* HQRouterHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HQRouterHeader.h; sourceTree = "<group>"; };
+		046C707E2A1CC176005DE8A1 /* HQRouterTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HQRouterTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		046C70ED2A1CC8FF005DE8A1 /* HQRouter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HQRouter.h; sourceTree = "<group>"; };
+		046C70EE2A1CC8FF005DE8A1 /* HQRouter.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HQRouter.m; sourceTree = "<group>"; };
+		046C70F12A1CC948005DE8A1 /* HQRouterRewrite.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HQRouterRewrite.h; sourceTree = "<group>"; };
+		046C70F22A1CC948005DE8A1 /* HQRouterRewrite.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HQRouterRewrite.m; sourceTree = "<group>"; };
+		046C70F52A1CC98C005DE8A1 /* HQRouterLogger.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HQRouterLogger.h; sourceTree = "<group>"; };
+		046C70F62A1CC98C005DE8A1 /* HQRouterLogger.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HQRouterLogger.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		046C70712A1CC176005DE8A1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		046C707B2A1CC176005DE8A1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				046C707F2A1CC176005DE8A1 /* HQRouter.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		046C706A2A1CC176005DE8A1 = {
+			isa = PBXGroup;
+			children = (
+				046C70762A1CC176005DE8A1 /* HQRouter */,
+				046C70752A1CC176005DE8A1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		046C70752A1CC176005DE8A1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				046C70742A1CC176005DE8A1 /* HQRouter.framework */,
+				046C707E2A1CC176005DE8A1 /* HQRouterTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		046C70762A1CC176005DE8A1 /* HQRouter */ = {
+			isa = PBXGroup;
+			children = (
+				046C70772A1CC176005DE8A1 /* HQRouterHeader.h */,
+				046C70ED2A1CC8FF005DE8A1 /* HQRouter.h */,
+				046C70EE2A1CC8FF005DE8A1 /* HQRouter.m */,
+				046C70F12A1CC948005DE8A1 /* HQRouterRewrite.h */,
+				046C70F22A1CC948005DE8A1 /* HQRouterRewrite.m */,
+				046C70F52A1CC98C005DE8A1 /* HQRouterLogger.h */,
+				046C70F62A1CC98C005DE8A1 /* HQRouterLogger.m */,
+				046C70EB2A1CC2AA005DE8A1 /* Resources */,
+			);
+			path = HQRouter;
+			sourceTree = "<group>";
+		};
+		046C70EB2A1CC2AA005DE8A1 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		046C706F2A1CC176005DE8A1 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				046C70F72A1CC98C005DE8A1 /* HQRouterLogger.h in Headers */,
+				046C70EF2A1CC8FF005DE8A1 /* HQRouter.h in Headers */,
+				046C70F32A1CC948005DE8A1 /* HQRouterRewrite.h in Headers */,
+				046C70852A1CC176005DE8A1 /* HQRouterHeader.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		046C70732A1CC176005DE8A1 /* HQRouter */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 046C70882A1CC176005DE8A1 /* Build configuration list for PBXNativeTarget "HQRouter" */;
+			buildPhases = (
+				046C706F2A1CC176005DE8A1 /* Headers */,
+				046C70702A1CC176005DE8A1 /* Sources */,
+				046C70712A1CC176005DE8A1 /* Frameworks */,
+				046C70722A1CC176005DE8A1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HQRouter;
+			productName = HQRouter;
+			productReference = 046C70742A1CC176005DE8A1 /* HQRouter.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		046C707D2A1CC176005DE8A1 /* HQRouterTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 046C708B2A1CC176005DE8A1 /* Build configuration list for PBXNativeTarget "HQRouterTests" */;
+			buildPhases = (
+				046C707A2A1CC176005DE8A1 /* Sources */,
+				046C707B2A1CC176005DE8A1 /* Frameworks */,
+				046C707C2A1CC176005DE8A1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				046C70812A1CC176005DE8A1 /* PBXTargetDependency */,
+			);
+			name = HQRouterTests;
+			productName = HQRouterTests;
+			productReference = 046C707E2A1CC176005DE8A1 /* HQRouterTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		046C706B2A1CC176005DE8A1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					046C70732A1CC176005DE8A1 = {
+						CreatedOnToolsVersion = 14.2;
+					};
+					046C707D2A1CC176005DE8A1 = {
+						CreatedOnToolsVersion = 14.2;
+					};
+				};
+			};
+			buildConfigurationList = 046C706E2A1CC176005DE8A1 /* Build configuration list for PBXProject "HQRouter" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 046C706A2A1CC176005DE8A1;
+			productRefGroup = 046C70752A1CC176005DE8A1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				046C70732A1CC176005DE8A1 /* HQRouter */,
+				046C707D2A1CC176005DE8A1 /* HQRouterTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		046C70722A1CC176005DE8A1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		046C707C2A1CC176005DE8A1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		046C70702A1CC176005DE8A1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				046C70F42A1CC948005DE8A1 /* HQRouterRewrite.m in Sources */,
+				046C70F82A1CC98C005DE8A1 /* HQRouterLogger.m in Sources */,
+				046C70F02A1CC8FF005DE8A1 /* HQRouter.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		046C707A2A1CC176005DE8A1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		046C70812A1CC176005DE8A1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 046C70732A1CC176005DE8A1 /* HQRouter */;
+			targetProxy = 046C70802A1CC176005DE8A1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		046C70862A1CC176005DE8A1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		046C70872A1CC176005DE8A1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		046C70892A1CC176005DE8A1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MARKETING_VERSION = 1.0;
+				ONLY_ACTIVE_ARCH = NO;
+				PRODUCT_BUNDLE_IDENTIFIER = com.quasimodohe.router.HQRouter;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		046C708A2A1CC176005DE8A1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.quasimodohe.router.HQRouter;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		046C708C2A1CC176005DE8A1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.quasimodohe.router.HQRouterTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		046C708D2A1CC176005DE8A1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.quasimodohe.router.HQRouterTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		046C706E2A1CC176005DE8A1 /* Build configuration list for PBXProject "HQRouter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				046C70862A1CC176005DE8A1 /* Debug */,
+				046C70872A1CC176005DE8A1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		046C70882A1CC176005DE8A1 /* Build configuration list for PBXNativeTarget "HQRouter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				046C70892A1CC176005DE8A1 /* Debug */,
+				046C708A2A1CC176005DE8A1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		046C708B2A1CC176005DE8A1 /* Build configuration list for PBXNativeTarget "HQRouterTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				046C708C2A1CC176005DE8A1 /* Debug */,
+				046C708D2A1CC176005DE8A1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 046C706B2A1CC176005DE8A1 /* Project object */;
+}
