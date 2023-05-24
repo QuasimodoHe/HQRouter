@@ -5,7 +5,7 @@ Pod::Spec.new do |s|
   s.homepage            = "https://github.com/QuasimodoHe"
   s.license             = { :type => "MIT", :file => "LICENSE" }
   s.author              = { "QuasimodoHe" => "qhe95hunan@sina.com" }
-  s.source              = { :git => "https://github.com/QuasimodoHe/HQRouter.git", :version => s.version }
+  s.source              = { :git => "https://github.com/QuasimodoHe/HQRouter.git", :tag => s.version.to_s }
   s.platform            = :ios, "9.0"
   s.source_files        = "HQRouter/**/*.{h,m,swift}"
   s.requires_arc        = true
