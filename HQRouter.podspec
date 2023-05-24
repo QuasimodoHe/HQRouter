@@ -2,7 +2,7 @@ Pod::Spec.new do |s|
   s.name                = "HQRouter"
   s.version             = "0.1.0"
   s.summary             = "Simple iOS Router SDK"
-  s.homepage            = "https://github.com/QuasimodoHe"
+  s.homepage            = "https://github.com/QuasimodoHe/HQRouter"
   s.license             = { :type => "MIT", :file => "LICENSE" }
   s.author              = { "QuasimodoHe" => "qhe95hunan@sina.com" }
   s.source              = { :git => "https://github.com/QuasimodoHe/HQRouter.git", :tag => s.version.to_s }
